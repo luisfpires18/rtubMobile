@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ipb.pt.rtub.Evento.EventoListActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar um Pedido"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Tipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de Pedido"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descrição"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.32"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Contacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacto"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:textStyle="bold" />
+</LinearLayout>

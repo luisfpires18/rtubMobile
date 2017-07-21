@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_start"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_insert_drive_file_black_24dp"
+            android:title="Sobre nós" />
+        <item
+            android:id="@+id/nav_requests"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Pedidos" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Eventos" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/ic_audiotrack_black_24dp"
+            android:title="Música" />
+        <item
+            android:id="@+id/nav_members"
+            android:icon="@drawable/ic_people_outline_black_24dp"
+            android:title="Membros" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_edit"
+                android:icon="@drawable/ic_create_black_24dp"
+                android:title="Editar Perfil" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

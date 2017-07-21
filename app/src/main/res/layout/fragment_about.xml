@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ipb.pt.rtub.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:text='A Real Tuna Universitária de Bragança começou os seus ensaios em Janeiro de 1991. e teve o seu Primeiro Espectáculo em Maio de 1991. Este ano a Real Tuna Universitária de Bragança celebra 25 anos de existência. 25 Anos de amizade, 25 anos de Academia, 25 anos de Bragança!
+Após uma reestruturação em que integraram elementos da extinta tuna Agricolina, tiveram um espectáculo que classificaram como inaugural a 1 de Dezembro de 1991. Era conhecida até 1997 como Tuna Académica de Bragança. É formada por actuais e antigos alunos e docentes do Instituto Politécnico de Bragança.
+A nível nacional esta Tuna participou em inúmeros encontros de tunas, festas populares, bares, discotecas e festivais, tendo já obtido diversos prémios referentes a: Tuna mais Tuna, Melhor Tuna, Melhor Pandeireta, Melhor Porta Estandarte,Melhor Serenata, Melhor “Passa Calhes”. Fora do País, a RTUB já actuou: na Alemanha, em Munique; em Itália, em Florença; em França, em Pavillion sus Bois,em Espanha, Vilanova de Arousa, Cee, Zamora, Vermilho de Sayago, Salamanca e Mojacar.
+A nível discográfico, a Tuna editou em 1995, “Tunalidades”, em 1998 “50% Música , 51% Álcool”, editada 2ª vez em 2000, em 2007 "Boémios e Trovadores" e recentemente em Outubro de 2013, "É esta a tuna". Participou também em 2001 numa produção internacional com estudantes de Munique e Florença num trabalho intitulado “Intercâmbio Estudantil 2001” em edição limitada, não comercial. '
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Festival internacional de tunas académicas de Bragança é nosso festival realizado por volta de Maio, além de englobar tunas convidadas do nosso país, também inclui por norma uma tuna internacional.
+É realizado em dois eventos, um dia para serenatas ao castelo, e o outro dia no Teatro Munincipal de Bragança
+Este ano foi realizada a 19º edição."
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Se estás interessado em juntar-te a nós, os nossos ensaios são Terças e Quintas às 21:30h! "
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

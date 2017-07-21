@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ipb.pt.rtub.Evento.EventoListActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar um Evento"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Local"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Tipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data do Evento (yyyy-MM-dd)"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/createButtonEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar"
+        android:textStyle="bold" />
+
+</LinearLayout>

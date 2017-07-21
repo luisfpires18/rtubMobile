@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tem a certeza que deseja apagar a inscrição?"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/inscricaoYes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sim"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/inscricaoNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="não"
+        android:textStyle="bold" />
+</LinearLayout>

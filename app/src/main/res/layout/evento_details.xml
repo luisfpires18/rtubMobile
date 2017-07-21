@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ipb.pt.rtub.Evento.EventoListActivity">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Local"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/buttonInscrever"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inscrever"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonInscritos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Inscritos"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonInstrumentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Instrumentos"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonUpdateEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alterar Evento"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonDeleteEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apagar Evento"
+        android:textStyle="bold" />
+
+</LinearLayout>

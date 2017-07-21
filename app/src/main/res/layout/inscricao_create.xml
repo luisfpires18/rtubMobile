@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inscrever-se"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Instrumento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instrumento"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextInstrumento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Notas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notas"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextNotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.32"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/MembroID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Membro"
+        android:textSize="30sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/createButtonInscricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADERIR"
+        android:textStyle="bold" />
+</LinearLayout>
